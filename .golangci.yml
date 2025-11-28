@@ -1,0 +1,18 @@
+version: "2"
+
+linters:
+  exclusions:
+    generated: lax
+    presets:
+      - comments
+      - common-false-positives
+      - legacy
+      - std-error-handling
+    paths:
+      - ^examples/
+
+formatters:
+  exclusions:
+    generated: lax
+    paths:
+      - ^examples/
